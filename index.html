@@ -8,6 +8,9 @@
 
     <!-- STYLE.CSS -->
     <link rel="stylesheet" href="./style.css" />
+
+    <!-- SCRIPT.JS -->
+    <script defer src="./script.js"></script>
   </head>
   <body>
     <main class="main">
@@ -27,11 +30,7 @@
         </p>
       </section>
 
-      <a
-        href="https://api.whatsapp.com/send?phone=6285183193434"
-        target="_blank"
-        class="redirec-button"
-      >
+      <a href="#" class="whatsappLink redirec-button">
         <div class="button-icon">
           <img src="./assets/Icon-whatsapp.svg" alt="whatsapp-icon" />
         </div>
@@ -95,10 +94,7 @@
               </p>
             </div>
 
-            <a
-              href="https://api.whatsapp.com/send?phone=6285183193434"
-              class="redirec-button"
-            >
+            <a href="#" class="whatsappLink redirec-button">
               <div class="button-icon">
                 <img src="./assets/Icon-whatsapp.svg" alt="whatsapp-icon" />
               </div>
@@ -161,10 +157,7 @@
             </div>
           </div>
 
-          <a
-            href="https://api.whatsapp.com/send?phone=6285183193434"
-            class="redirec-button"
-          >
+          <a href="#" class="whatsappLink redirec-button">
             <div class="button-icon">
               <img src="./assets/Icon-whatsapp.svg" alt="whatsapp-icon" />
             </div>
@@ -210,10 +203,7 @@
           <li>Cara aplikasi/penggunaan lebih mudah, efisien, dan murah.</li>
         </ul>
 
-        <a
-          href="https://api.whatsapp.com/send?phone=6285183193434"
-          class="redirec-button"
-        >
+        <a href="#" class="whatsappLink redirec-button">
           <div class="button-icon">
             <img src="./assets/Icon-whatsapp.svg" alt="whatsapp-icon" />
           </div>
@@ -240,10 +230,7 @@
         <div>
           <img src="./assets/hut.png" alt="product-image" />
 
-          <a
-            href="https://api.whatsapp.com/send?phone=6285183193434"
-            class="redirec-button"
-          >
+          <a href="#" class="whatsappLink redirec-button">
             <div class="button-icon">
               <img src="./assets/Icon-whatsapp.svg" alt="whatsapp-icon" />
             </div>
@@ -317,15 +304,38 @@
           <p>39.000</p>
         </div>
 
-        <a
-          href="https://api.whatsapp.com/send?phone=6285183193434"
-          class="redirec-button"
-        >
-          <div class="button-icon">
-            <img src="./assets/Icon-whatsapp.svg" alt="whatsapp-icon" />
-          </div>
-          <p>COBA SEKARANG</p>
-        </a>
+        <div class="checkout">
+          <h2>Form Pembelan</h2>
+
+          <form class="form-checkout" id="formPesanan">
+            <label>
+              Nama:
+              <input type="text" id="nama" required />
+            </label>
+
+            <label>
+              Alamat pengiriman:
+              <input type="text" id="alamat" required />
+            </label>
+
+            <label>
+              Nomor Whatsapp:
+              <input type="text" id="whatsapp" required />
+            </label>
+
+            <label>
+              Jumlah pesanan:
+              <input type="number" id="jumlah_pesanan" required />
+            </label>
+
+            <button type="submit" class="submit-button">
+              <div class="button-icon">
+                <img src="./assets/Icon-whatsapp.svg" alt="whatsapp-icon" />
+              </div>
+              <p>PESAN SEKARANG</p>
+            </button>
+          </form>
+        </div>
       </section>
 
       <footer class="footer">
