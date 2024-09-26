@@ -3,7 +3,7 @@ const whatsappLinks = document.querySelectorAll(".whatsappLink");
 
 whatsappLinks.forEach((link) => {
   link.addEventListener("click", () => {
-    const pesan = "Halo, saya ingin menanyakan tentang produk Anda.";
+    const pesan = "Hallo kak, apakah pupuk ferboost masih tersedia ?";
     const whatsappUrl = `https://api.whatsapp.com/send?phone=6285183193434&text=${encodeURIComponent(
       pesan
     )}`;
